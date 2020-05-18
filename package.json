@@ -35,5 +35,10 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  }
+  },
+"homepage": "https://gorirakuniro.github.io/textanimation/",
+"scripts": {
+    "deploy": "npm run build && gh-pages -d build"
+  },
+
 }
