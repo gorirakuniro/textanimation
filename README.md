@@ -6,7 +6,7 @@ Reactで少し慣れてきてjsも書けるようなってきたのでアニメ�
 [GSAP](https://greensock.com/gsap/)を使い結構重たい処理をした。
 
 ### 独自マウス
-`
+```
  let cursor = document.querySelector('.cursor');
  let follow = document.querySelector('.follow');
  function move(obj, event) {
@@ -18,11 +18,11 @@ Reactで少し慣れてきてjsも書けるようなってきたのでアニメ�
       move(cursor, event);
       move(follow, event);
   });
-`
+```
 jsのstyleでtopとleftを画面のXYをclientX、clientYで取得して動かした。
 
 ### Textのアニメーションは
-`
+```
 let tl = gsap.timeline();
 tl.from(".main__tl span", 1.8, {
     y: 100,
@@ -33,7 +33,7 @@ tl.from(".main__tl span", 1.8, {
         amount: 0.3
      }
 })
-`
+```
 GSAPを使い元のstyleから上記のコードで変換するようにして
 変形させた。
 <br>
