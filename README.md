@@ -2,6 +2,8 @@
 
 ***
 
+### https://gorirakuniro.github.io/textanimation/
+
 Reactで少し慣れてきてjsも書けるようなってきたのでアニメーションの<br>
 [GSAP](https://greensock.com/gsap/)を使い結構重たい処理をした。
 
@@ -34,7 +36,7 @@ tl.from(".main__tl span", 1.8, {
      }
 })
 ```
-GSAPを使い元のstyleから上記のコードで変換するようにして
+GSAPを使い、元のstyleから上記のコードで変換するようにして
 変形させた。
 <br>
 補足として[circletype.js](https://circletype.labwire.ca/)を使い
