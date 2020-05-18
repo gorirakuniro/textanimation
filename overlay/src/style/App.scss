@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    box-sizing: border-box;
+    background: #204051;
+    overflow: hidden;
+    font-family: Signika;
+    .container {
+        width: 80%;
+        margin: 50px auto;
+        .cursor {
+            position: absolute;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+        }
+        .main__tl {
+            height: 5rem;
+            font-size: 5rem;
+            color: #cae8d5;
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+            span {
+                position: absolute;
+            }
+        }
+        .main__subtl {
+            width: 300px;
+            height: 20px;
+            color: #cae8d5;
+            position: relative;
+            overflow: hidden;
+            span {
+                position: absolute;
+                left: 50px;
+            }
+        }
+        .section {
+            width: 100%;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+            .section__text {
+                font-size: 1.3rem;
+                color: #cae8d5;
+                position: absolute;
+                left: 50px;
+            }
+        }
+    }
+}
+
+.cursor {
+    position: absolute;
+    pointer-events: none;
+    width: 0.4rem;
+    height: 0.4rem;
+    z-index: 100;
+    background-color: white;
+    border-radius: 100%;
+}
+.follow {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    transition: all 0.2s ease-out;
+}
