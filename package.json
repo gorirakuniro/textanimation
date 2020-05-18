@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -36,9 +37,5 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   },
-"homepage": "https://gorirakuniro.github.io/textanimation/",
-"scripts": {
-    "deploy": "npm run build && gh-pages -d build"
-  },
-
+  "homepage": "https://gorirakuniro.github.io/textanimation/"
 }
